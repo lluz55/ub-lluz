@@ -49,6 +49,21 @@ rpm:
   # at the "system level" in the final image.
   install:
     # Needed for yafti (the first boot installer). Remove if you're not using yafti.
+    - i3
+    - polybar
+    - fd-find
+    - rust
+    - cargo
+    - ripgrep
+    - neofetch
+    - fish
+    - kitty
+    - feh
+    - 
+    # #### Missing ####
+    # - broot
+    # - zellij
+    # - telegram
     - python3-pip
     # GNOME's GTK4 theme, Libadwaita. Already included in Silverblue, but not
     # other spins. You can remove if you aren't using yafti, but many native
