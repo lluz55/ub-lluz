@@ -59,7 +59,8 @@ rpm:
     - fish
     - kitty
     - feh
-    - 
+    - nodejs
+    - neovim
     # #### Missing ####
     # - broot
     # - zellij
