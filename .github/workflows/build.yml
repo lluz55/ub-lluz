@@ -169,7 +169,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.TOKEN }}
 
       # Sign container
       - uses: sigstore/cosign-installer@v3.0.4
