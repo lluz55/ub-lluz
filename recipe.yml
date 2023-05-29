@@ -66,6 +66,7 @@ rpm:
     - clang
     - gcc
     - firefox
+    - lld
     # #### Missing ####
     # - broot
     # - zellij
