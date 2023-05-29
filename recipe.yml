@@ -62,6 +62,10 @@ rpm:
     - nodejs
     - neovim
     - exa
+    - rofi
+    - clang
+    - gcc
+    - firefox
     # #### Missing ####
     # - broot
     # - zellij
@@ -79,8 +83,6 @@ rpm:
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
     # Remove the native firefox (from Fedora) in favor of the Flatpak.
-    - firefox
-    - firefox-langpacks
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
@@ -95,5 +97,3 @@ firstboot:
   # the "just setup-flatpaks" command from our "custom.just" template file.
   # This is just an example selection:
   flatpaks:
-    - io.github.celluloid_player.Celluloid
-    - org.kde.krita
