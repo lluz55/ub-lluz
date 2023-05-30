@@ -51,22 +51,12 @@ rpm:
     # Needed for yafti (the first boot installer). Remove if you're not using yafti.
     - i3
     - polybar
-    - fd-find
-    - rust
-    - cargo
-    - ripgrep
-    - neofetch
     - fish
     - kitty
-    - feh
-    - nodejs
-    - neovim
-    - exa
     - rofi
-    - clang
-    - gcc
     - firefox
-    - lld
+    - podman
+    - distrobox
     # #### Missing ####
     # - broot
     # - zellij
